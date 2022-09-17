@@ -46,3 +46,16 @@ h1{
   color:#f9faf8;
 }
 
+.content{
+  display:flex;
+  flex-direction:row;
+}
+
+.content-left, .content-right{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+
